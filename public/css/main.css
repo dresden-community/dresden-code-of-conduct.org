@@ -1,0 +1,32 @@
+* html, body {
+	font-family: source_sans_proregular, Arial, Verdana, Times, sans-serif;
+	font-size: 16px;
+}
+
+header {
+	background: url(../img/header-background.png) repeat-x 0 0;
+	height: 318px;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+header h1 {
+	font-family: source_sans_prosemibold, Arial, Verdana, Times, sans-serif;
+	font-size: 60pt;
+	color: #ffffff;
+}
+
+header h1 .light {
+	font-family: source_sans_prolight, Arial, Verdana, Times, sans-serif;
+}
+
+.blockspace {
+	margin: 25px 0;
+}
+
+@media screen and (max-width: 1024px) {
+	header h1 {
+		font-size: 35pt;
+	}
+}

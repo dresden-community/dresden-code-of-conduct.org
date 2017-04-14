@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+	<base href="{{ project.getBaseUrl }}">
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<title>{{ page.getPageTitle }} | {{ project.getName }}</title>
+	<meta name="description" content="THE DRESDEN CODE OF CONDUCT">
+	<meta name="keywords" content="{{ page.getTags|join(', ') }}">
+	<meta name="HandheldFriendly" content="True"/>
+	<meta name="geo.region" content="DE-SN"/>
+	<meta name="geo.placename" content="Dresden"/>
+	<meta name="geo.position" content="51.052088;13.741672"/>
+	<meta name="ICBM" content="51.052088, 13.741672"/>
+	<script type="application/ld+json">{% spaceless %}
+{
+  "@context" : "http://schema.org",
+  "@type": "Person",
+  "name": "DRESDEN CODE OF CONDUCT",
+  "image": "{{ project.getUrl(page.getImageUrl) }}",
+  "url": "{{ project.getBaseUrl }}"
+}{% endspaceless %}</script>
+	<meta property="article:author" content="@authors@"/>
+	<meta property="article:publisher" content="@authors@"/>
+
+	<link rel="apple-touch-icon" sizes="57x57" href="{{ project.getUrl('/favicon/apple-icon-57x57.png') }}">
+	<link rel="apple-touch-icon" sizes="60x60" href="{{ project.getUrl('/favicon/apple-icon-60x60.png') }}">
+	<link rel="apple-touch-icon" sizes="72x72" href="{{ project.getUrl('/favicon/apple-icon-72x72.png') }}">
+	<link rel="apple-touch-icon" sizes="76x76" href="{{ project.getUrl('/favicon/apple-icon-76x76.png') }}">
+	<link rel="apple-touch-icon" sizes="114x114" href="{{ project.getUrl('/favicon/apple-icon-114x114.png') }}">
+	<link rel="apple-touch-icon" sizes="120x120" href="{{ project.getUrl('/favicon/apple-icon-120x120.png') }}">
+	<link rel="apple-touch-icon" sizes="144x144" href="{{ project.getUrl('/favicon/apple-icon-144x144.png') }}">
+	<link rel="apple-touch-icon" sizes="152x152" href="{{ project.getUrl('/favicon/apple-icon-152x152.png') }}">
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ project.getUrl('/favicon/apple-icon-180x180.png') }}">
+	<link rel="icon" type="image/png" sizes="192x192" href="{{ project.getUrl('/favicon/android-icon-192x192.png') }}">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ project.getUrl('/favicon/favicon-32x32.png') }}">
+	<link rel="icon" type="image/png" sizes="96x96" href="{{ project.getUrl('/favicon/favicon-96x96.png') }}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ project.getUrl('/favicon/favicon-16x16.png') }}">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="{{ project.getUrl('/favicon/ms-icon-144x144.png') }}">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="canonical" href="{{ project.getUrl(page.getUri) }}"/>
+	<meta name="referrer" content="origin"/>
+
+	<meta property="og:site_name" content="{{ project.getName }}"/>
+	<meta property="og:type" content="article"/>
+	<meta property="og:title" content="{{ page.getPageTitle }} | {{ project.getName }}"/>
+	<meta property="og:description" content="{{ page.getDescription }}"/>
+	<meta property="og:url" content="{{ project.getBaseUrl }}"/>
+	<meta property="og:image" content="{{ project.getUrl(page.getImageUrl) }}"/>
+	<meta property="article:published_time" content="{{ 'now'|date('c') }}"/>
+	<meta property="article:modified_time" content="{{ 'now'|date('c') }}"/>
+	{% for tag in page.getTags %}
+		<meta property="article:tag" content="{{ tag }}"/>
+	{% endfor %}
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:title" content="{{ page.getPageTitle }} | {{ project.getName }}"/>
+	<meta name="twitter:description" content="{{ page.getDescription }}"/>
+	<meta name="twitter:url" content="{{ project.getUrl(page.getUri) }}"/>
+	<meta name="twitter:image:src" content="{{ project.getUrl(page.getImageUrl) }}"/>
+
+	<meta name="generator" content="IceHawk Static Page Generator"/>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="{{ project.getUrl('/css/webfonts.css') }}">
+	<link rel="stylesheet" href="{{ project.getUrl('/css/main.css') ~ '?' ~ ('now'|date('YmdHis')) }}">
+	<script src="https://use.fontawesome.com/e0f6b2b583.js" async="async"></script>
+	{% block stylesheets %}{% endblock %}
+</head>
+<body>
+
+<div class="page-container">
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="hidden-xs hidden-sm col-md-4">
+					<a href="{{ project.getUrl('/de/index.html') }}">
+						<img src="{{ project.getUrl('/img/header-logo.png') }}" alt="DRESDEN COMMUNITY">
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-8 text-right">
+					<h1><span class="light">DRESDEN</span><br>CODE OF CONDUCT</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="container">
+
+		{% block content %}{% endblock %}
+
+	</div><!--/.container-->
+
+	<footer class="container" id="footer">
+
+		<hr class="blockspace">
+
+		<div class="row blockspace">
+			<div class="col-xs-12 text-center small text-muted">
+				@website_version@
+				&middot;
+				&copy; {{ 'now'|date('Y') }} {{ project.getName }}
+				&middot;
+				<a href="{{ project.getUrl('/imprint.html') }}">Impressum</a>
+				&middot;
+				Letzte Änderung: {{ 'now'|date('d.m.Y H:i') }}
+			</div>
+		</div>
+
+	</footer><!--/.container-->
+
+</div><!--/.page-container-->
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{ project.getUrl('/js/main.js') ~ '?' ~ ('now'|date('YmdHis')) }}"></script>
+{% block javascripts %}{% endblock %}
+</body>
+</html>

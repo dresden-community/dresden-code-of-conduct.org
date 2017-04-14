@@ -1,0 +1,22 @@
+{% extends "templates/theme.twig" %}
+{% block content %}
+
+	<div class="text-center">
+
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+
+		<h2>Woops! - 404 Not Found</h2>
+
+		<p>&nbsp;</p>
+		<p class="text-center">
+			Deine gesuchte Seite gibt es hier wohl nicht.
+		</p>
+		<p>&nbsp;</p>
+		<h4 class="text-center">
+			<a href="{{ project.getUrl('/') }}" title="Zur Startseite">Zur Startseite</a>
+		</h4>
+		<p>&nbsp;</p>
+	</div>
+
+{% endblock %}

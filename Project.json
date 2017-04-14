@@ -1,0 +1,88 @@
+{
+	"name": "DRESDEN CODE OF CONDUCT",
+	"baseUrl": "https://dresden-code-of-conduct.org",
+	"outputDir": "./public",
+	"contentsDir": "./contents/",
+	"replacements": {
+		"@website_version@": "v0.1.0",
+		"@github_url@": "https://github.com/dresden-community/dresden-code-of-conduct.org",
+		"@contact_email@": "info@dresden-code-of-conduct.org",
+		"@authors@": "Holger Woltersdorf",
+		"@github_issues@": "https://github.com/dresden-community/dresden-code-of-conduct.org/issues"
+	},
+	"pages": {
+		"/de/index.html": {
+			"pageLevel": 1,
+			"navName": "Startseite",
+			"pageTitle": "Startseite",
+			"description": "Dresden Code of Conduct - deutsche Version | german version",
+			"language": "de",
+			"imageUrl": "/images/dresden-community-logo.png",
+			"tags": [
+				"Deutsch",
+				"German",
+				"Code of Conduct",
+				"CoC",
+				"Version"
+			],
+			"contentType": "markdown",
+			"renderer": "twig",
+			"template": "templates/page.twig",
+			"contentFile": "de/index.md",
+			"children": [
+			]
+		},
+		"/en/index.html": {
+			"pageLevel": 1,
+			"navName": "Home",
+			"pageTitle": "Home",
+			"description": "Dresden Code of Conduct - english version | englische Version",
+			"language": "de",
+			"imageUrl": "/images/dresden-community-logo.png",
+			"tags": [
+				"Englisch",
+				"English",
+				"Code of Conduct",
+				"CoC",
+				"Version"
+			],
+			"contentType": "markdown",
+			"renderer": "twig",
+			"template": "templates/page.twig",
+			"contentFile": "en/index.md",
+			"children": [
+			]
+		},
+		"/404.html": {
+			"pageLevel": 1,
+			"navName": "Not Found",
+			"pageTitle": "404 - Not Found",
+			"description": "The page you requested was not found.",
+			"language": "de",
+			"imageUrl": "/images/dresden-community-logo.png",
+			"tags": [],
+			"contentType": "html",
+			"renderer": "twig",
+			"template": "templates/404.twig",
+			"contentFile": "",
+			"children": []
+		},
+		"/imprint.html": {
+			"pageLevel": 1,
+			"navName": "Impressum",
+			"pageTitle": "Impressum",
+			"description": "Impressum des Dresden Code of Conduct",
+			"language": "de",
+			"imageUrl": "/images/dresden-community-logo.png",
+			"tags": [
+				"Kontakt",
+				"Impressum"
+			],
+			"contentType": "markdown",
+			"renderer": "twig",
+			"template": "templates/page.twig",
+			"contentFile": "imprint.md",
+			"children": []
+		}
+	}
+}

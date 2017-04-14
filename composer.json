@@ -1,0 +1,28 @@
+{
+	"name": "dresden-community/dresden-code-of-conduct",
+	"description": "The Dresden Code of Conduct",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Holger Woltersdorf",
+			"email": "info@dresden-code-of-conduct.org"
+		}
+	],
+	"require-dev": {
+		"tm/tooly-composer-script": "^1.0"
+	},
+	"scripts": {
+		"post-install-cmd": "Tooly\\ScriptHandler::installPharTools",
+		"post-update-cmd": "Tooly\\ScriptHandler::installPharTools"
+	},
+	"extra": {
+		"tools": {
+			"spg": {
+				"url": "https://github.com/icehawk/static-page-generator/releases/download/v1.3.0/static-page-generator.phar",
+				"only-dev": true
+			}
+		}
+	}
+}
