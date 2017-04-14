@@ -25,6 +25,18 @@ header h1 .light {
 	margin: 25px 0;
 }
 
+.language-switch li {
+	color: #808080;
+}
+
+.language-switch li.active {
+	font-family: source_sans_prosemibold, Arial, Verdana, Times, sans-serif;
+}
+
+.language-switch a {
+	color: #ffffff;
+}
+
 @media screen and (max-width: 1024px) {
 	header h1 {
 		font-size: 35pt;

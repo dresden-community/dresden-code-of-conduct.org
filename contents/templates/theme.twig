@@ -79,12 +79,25 @@
 		<div class="container">
 			<div class="row">
 				<div class="hidden-xs hidden-sm col-md-4">
-					<a href="{{ project.getUrl('/de/index.html') }}">
+					<a href="{{ project.getUrl('/de/') }}">
 						<img src="{{ project.getUrl('/img/header-logo.png') }}" alt="DRESDEN COMMUNITY">
 					</a>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-8 text-right">
-					<h1><span class="light">DRESDEN</span><br>CODE OF CONDUCT</h1>
+				<div class="col-xs-12 col-sm-12 col-md-8">
+					<h1 class="text-right"><span class="light">DRESDEN</span><br>CODE OF CONDUCT</h1>
+					<div class="row">
+						<div class="col-xs-12">
+							<ul class="list-inline language-switch">
+								<li{% if breadCrumb|keys|first == '/de/index.html' %} class="active"{% endif %}>
+									<a href="{{ project.getUrl('/de/') }}" title="Gehe zur deutschen Version">DE</a>
+								</li>
+								<li>|</li>
+								<li{% if breadCrumb|keys|first == '/en/index.html' %} class="active"{% endif %}>
+									<a href="{{ project.getUrl('/en/') }}" title="Go to english version">EN</a>
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
