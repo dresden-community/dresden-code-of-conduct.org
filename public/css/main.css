@@ -46,6 +46,33 @@ header h1 .light {
 	border-radius: 3px;
 }
 
+.content-gray {
+	height: 10px;
+	background-color: #7f7f7f;
+}
+
+.content-gray-dark {
+	height: 10px;
+	background-color: #3f3f3f;
+}
+
+.content-black {
+	background-color: #000000;
+	color: #e1e1e1;
+}
+
+.content-black a {
+	color: #e1e1e1;
+	text-decoration: underline;
+}
+
+.content-black a:hover,
+.content-black a:active,
+.content-black a:focus {
+	color: #ffffff;
+	text-decoration: none;
+}
+
 @media screen and (max-width: 1024px) {
 	header h1 {
 		font-size: 35pt;
