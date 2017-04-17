@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dresden-community/dresden-code-of-conduct.org.svg?branch=master)](https://travis-ci.org/dresden-community/dresden-code-of-conduct.org)
+
 # The DRESDEN CODE OF CONDUCT website
 
 ## Public BETA

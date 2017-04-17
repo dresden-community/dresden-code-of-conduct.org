@@ -4,7 +4,7 @@
 	"outputDir": "./public",
 	"contentsDir": "./contents/",
 	"replacements": {
-		"@website_version@": "v0.2.0",
+		"@website_version@": "v0.2.2",
 		"@github_url@": "https://github.com/dresden-community/dresden-code-of-conduct.org",
 		"@contact_email@": "info@dresden-code-of-conduct.org",
 		"@authors@": "Holger Woltersdorf",
