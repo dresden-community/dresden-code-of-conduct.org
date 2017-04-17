@@ -95,6 +95,28 @@
 								<li{% if breadCrumb|keys|first == '/en/index.html' %} class="active"{% endif %}>
 									<a href="{{ project.getUrl('/en/') }}" title="Go to english version">EN</a>
 								</li>
+								<li>|</li>
+								<li{% if breadCrumb|keys|first == '/es/index.html' %} class="active"{% endif %}>
+									<a href="{{ project.getUrl('/es/') }}" title="Ir a la versión española">ES</a>
+								</li>
+								<li>|</li>
+								<li{% if breadCrumb|keys|first == '/pl/index.html' %} class="active"{% endif %}>
+									<a href="{{ project.getUrl('/pl/') }}" title="Przejdź do wersji polskiej">PL</a>
+								</li>
+								<li>|</li>
+								<li{% if breadCrumb|keys|first == '/fr/index.html' %} class="active"{% endif %}>
+									<a href="{{ project.getUrl('/fr/') }}" title="Aller à la version française">FR</a>
+								</li>
+								<li>|</li>
+								<li{% if breadCrumb|keys|first == '/it/index.html' %} class="active"{% endif %}>
+									<a href="{{ project.getUrl('/it/') }}" title="Vai alla versione italiana">IT</a>
+								</li>
+								<li>|</li>
+								<li>
+									<a href="https://github.com/dresden-community/dresden-code-of-conduct.org/blob/master/README.md#public-beta">
+										<span class="beta"><i class="fa fa-github"></i> PUBLIC BETA</span>
+									</a>
+								</li>
 							</ul>
 						</div>
 					</div>

@@ -15,6 +15,34 @@
     </image:image>
   </url>
   <url>
+    <loc>https://dresden-code-of-conduct.org/es/index.html</loc>
+    <image:image>
+      <image:loc>https://dresden-code-of-conduct.org/images/dresden-community-logo.png</image:loc>
+      <image:caption>Casa</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://dresden-code-of-conduct.org/pl/index.html</loc>
+    <image:image>
+      <image:loc>https://dresden-code-of-conduct.org/images/dresden-community-logo.png</image:loc>
+      <image:caption>Dom</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://dresden-code-of-conduct.org/fr/index.html</loc>
+    <image:image>
+      <image:loc>https://dresden-code-of-conduct.org/images/dresden-community-logo.png</image:loc>
+      <image:caption>Maison</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://dresden-code-of-conduct.org/it/index.html</loc>
+    <image:image>
+      <image:loc>https://dresden-code-of-conduct.org/images/dresden-community-logo.png</image:loc>
+      <image:caption>Casa</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://dresden-code-of-conduct.org/404.html</loc>
     <image:image>
       <image:loc>https://dresden-code-of-conduct.org/images/dresden-community-logo.png</image:loc>

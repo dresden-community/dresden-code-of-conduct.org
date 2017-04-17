@@ -37,6 +37,15 @@ header h1 .light {
 	color: #ffffff;
 }
 
+.beta {
+	color: #000000;
+	background-color: #f9e835;
+	font-weight: bold;
+	display: inline-block;
+	padding: 2px 5px;
+	border-radius: 3px;
+}
+
 @media screen and (max-width: 1024px) {
 	header h1 {
 		font-size: 35pt;

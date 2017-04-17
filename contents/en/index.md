@@ -23,11 +23,11 @@ If you see someone who is making an extra effort to ensure our community is welc
 
 ## Expected Behavior
 
-Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
-Exercise consideration and respect in your speech and actions.
-Attempt collaboration before conflict.
-Refrain from demeaning, discriminatory, or harassing behavior and speech.
-Be mindful of your surroundings and of your fellow participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
+* Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
+* Exercise consideration and respect in your speech and actions.
+* Attempt collaboration before conflict.
+* Refrain from demeaning, discriminatory, or harassing behavior and speech.
+* Be mindful of your surroundings and of your fellow participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
 
 ## Unacceptable Behavior
 
@@ -52,7 +52,3 @@ If you feel you have been falsely or unfairly accused of violating this Code of 
 ## Scope
 
 We expect all community participants (contributors, paid or otherwise; sponsors; and other guests) to abide by this Code of Conduct in all community venues—online and in-person—as well as in all one-on-one communications pertaining to community business.
-
-## License and attribution
-
-Berlin Code of Conduct is distributed under a Creative Commons Attribution-ShareAlike license. It is based on the [pdx.rb code of conduct](https://pdxruby.org/codeofconduct), which is distributed under the same license.

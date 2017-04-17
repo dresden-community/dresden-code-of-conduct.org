@@ -1,0 +1,20 @@
+language: php
+
+php:
+  - 7.1
+
+branches:
+  only:
+    - master
+    - development
+    - /^issue\/.+$/
+
+before_script:
+ - composer self-update
+ - mkdir -p vendor/bin
+ - mkdir -p build/logs
+ - composer install -o --prefer-dist --no-interaction
+ - nohup php -S 127.0.0.1:8080 -t ./public > build/logs/webserver.log 2>&1 &
+
+script:
+ - php vendor/bin/spg.phar check:links -g -b "http://127.0.0.1:8080" ./Project.json

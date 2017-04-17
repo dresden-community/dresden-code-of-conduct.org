@@ -23,15 +23,11 @@ Wenn du Personen begegnest, die sich viel Mühe geben, unsere Community einladen
 
 ## Erwartetes Verhalten
 
-Beteilige dich authentisch und aktiv. Dadurch trägst du zur Gesundheit und Langlebigkeit dieser Community bei.
-
-Verhalte dich rücksichts- und respektvoll in Wort und Tat.
-
-Bemühe dich um Zusammenarbeit, damit du Konflikte von Anfang an vermeiden kannst.
-
-Nimm Abstand von erniedrigender, diskriminierender oder belästigender Sprache und Verhalten.
-
-Achte auf deine Umgebung und die anderen Teilnehmenden. Mache die Veranstaltenden oder andere Anwesende darauf aufmerksam, wenn du eine gefährliche Situation, jemanden in Bedrängnis oder Verletzungen dieses Verhaltenskodexes bemerkst, selbst wenn sie zunächst belanglos erscheinen.
+* Beteilige dich authentisch und aktiv. Dadurch trägst du zur Gesundheit und Langlebigkeit dieser Community bei.
+* Verhalte dich rücksichts- und respektvoll in Wort und Tat.
+* Bemühe dich um Zusammenarbeit, damit du Konflikte von Anfang an vermeiden kannst.
+* Nimm Abstand von erniedrigender, diskriminierender oder belästigender Sprache und Verhalten.
+* Achte auf deine Umgebung und die anderen Teilnehmenden. Mache die Veranstaltenden oder andere Anwesende darauf aufmerksam, wenn du eine gefährliche Situation, jemanden in Bedrängnis oder Verletzungen dieses Verhaltenskodexes bemerkst, selbst wenn sie zunächst belanglos erscheinen.
 
 ## Inakzeptables Verhalten
 
@@ -56,7 +52,3 @@ Wenn du dich zu Unrecht oder auf ungerechte Art und Weise beschuldigt fühlst, d
 ## Geltungsbereich
 
 Wir erwarten, dass sich alle Teilnehmenden der Community (bezahlte oder unbezahlte Beitragende, Sponsoren sowie andere Gäste) an jedweden Veranstaltungsorten der Community - online und offline - sowie in allen persönlichen Gesprächen im Rahmen der Community an diesen Verhaltenskodex halten.
-
-## Lizenz und Namensnennung
-
-Der Dresden Code of Conduct steht unter der Creative Commons Attribution-ShareAlike Lizenz. Er basiert auf dem [pdx.rb code of conduct](https://pdxruby.org/codeofconduct), der unter der selben Lizenz steht.

@@ -1,5 +1,23 @@
 # The DRESDEN CODE OF CONDUCT website
 
+## Public BETA
+
+This project is in public beta phase. Please leave us feedback or report any objections [via GitHub issue here](https://github.com/dresden-community/dresden-code-of-conduct.org/issues).
+
+If you like to contribute further translations of this code of conduct, please clone the project and provide a pull request.
+
+We really appreciate any help to improve or extend this website.
+
+## Your community / event is committed to this code of conduct?
+
+If you like to be listed on the website as a community or event, that commits to this code of conduct, 
+[please open an issue](https://github.com/dresden-community/dresden-code-of-conduct.org/issues) and add all the (contact) information 
+of your community or event you consider to be noteworthy. You can also provide a logo, if you want.
+
+Thank you!
+
+---
+
 ## Edit the website
 
 The website is (obviously) generated static content.

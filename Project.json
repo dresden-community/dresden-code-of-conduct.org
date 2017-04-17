@@ -4,7 +4,7 @@
 	"outputDir": "./public",
 	"contentsDir": "./contents/",
 	"replacements": {
-		"@website_version@": "v0.1.0",
+		"@website_version@": "v0.2.0",
 		"@github_url@": "https://github.com/dresden-community/dresden-code-of-conduct.org",
 		"@contact_email@": "info@dresden-code-of-conduct.org",
 		"@authors@": "Holger Woltersdorf",
@@ -50,6 +50,90 @@
 			"renderer": "twig",
 			"template": "templates/page.twig",
 			"contentFile": "en/index.md",
+			"children": [
+			]
+		},
+		"/es/index.html": {
+			"pageLevel": 1,
+			"navName": "Casa",
+			"pageTitle": "Casa",
+			"description": "Dresden Code of Conduct - versión española | spanische Version",
+			"language": "de",
+			"imageUrl": "/images/dresden-community-logo.png",
+			"tags": [
+				"Spanisch",
+				"espanñola",
+				"Code of Conduct",
+				"CoC",
+				"Version"
+			],
+			"contentType": "markdown",
+			"renderer": "twig",
+			"template": "templates/page.twig",
+			"contentFile": "es/index.md",
+			"children": [
+			]
+		},
+		"/pl/index.html": {
+			"pageLevel": 1,
+			"navName": "Dom",
+			"pageTitle": "Dom",
+			"description": "Dresden Code of Conduct - wersji polskiej | polnische Version",
+			"language": "de",
+			"imageUrl": "/images/dresden-community-logo.png",
+			"tags": [
+				"Polnisch",
+				"polskiej",
+				"Code of Conduct",
+				"CoC",
+				"Version"
+			],
+			"contentType": "markdown",
+			"renderer": "twig",
+			"template": "templates/page.twig",
+			"contentFile": "pl/index.md",
+			"children": [
+			]
+		},
+		"/fr/index.html": {
+			"pageLevel": 1,
+			"navName": "Maison",
+			"pageTitle": "Maison",
+			"description": "Dresden Code of Conduct - version française | französische Version",
+			"language": "de",
+			"imageUrl": "/images/dresden-community-logo.png",
+			"tags": [
+				"Französisch",
+				"française",
+				"Code of Conduct",
+				"CoC",
+				"Version"
+			],
+			"contentType": "markdown",
+			"renderer": "twig",
+			"template": "templates/page.twig",
+			"contentFile": "fr/index.md",
+			"children": [
+			]
+		},
+		"/it/index.html": {
+			"pageLevel": 1,
+			"navName": "Casa",
+			"pageTitle": "Casa",
+			"description": "Dresden Code of Conduct - versione italiana | italienische Version",
+			"language": "de",
+			"imageUrl": "/images/dresden-community-logo.png",
+			"tags": [
+				"Italienisch",
+				"italiana",
+				"Code of Conduct",
+				"CoC",
+				"Version"
+			],
+			"contentType": "markdown",
+			"renderer": "twig",
+			"template": "templates/page.twig",
+			"contentFile": "it/index.md",
 			"children": [
 			]
 		},
