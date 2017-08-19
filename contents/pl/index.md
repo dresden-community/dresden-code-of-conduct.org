@@ -48,4 +48,6 @@ Oczekujemy, że wszyscy uczestnicy społeczności (organizatorzy, zarówno opła
 
 ## Licencja i uznanie autorstwa
 
-Berliński kodeks postępowania jest rozpowszechniany na warunkach licencji Creative Commons Uznanie autorstwa-Na tych samych warunkach. Kodeks został stworzony na podstawie [pdx.rb code of conduct](https://pdxruby.org/codeofconduct), rozpowszechnianego na warunkach tej samej licencji.
+Dresden kodeks postępowania jest rozpowszechniany na warunkach licencji Creative Commons Uznanie autorstwa-Na tych 
+samych warunkach. Kodeks został stworzony na podstawie [pdx.rb code of conduct](https://pdxruby.org/codeofconduct), 
+rozpowszechnianego na warunkach tej samej licencji.
