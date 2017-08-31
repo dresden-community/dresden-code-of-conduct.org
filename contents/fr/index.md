@@ -45,3 +45,5 @@ Si vous estimez avoir été accusé injustement de violation du code de conduite
 ## Application du code de conduite
 
 Nous attendons de la part de tous les membres de la communauté (contributeurs payés ou non, sponsors et autres invités) qu'ils respectent et agissent conformément à ce code de conduite lors d'événements, qu'il s'agisse de discussions en ligne ou de rencontres de visu ainsi que pour toutes les communications relatives à la communauté.
+
+Merci aux mainteneurs, aux amis et à la communauté autour de [Berlin Code of Conduct](http://berlincodeofconduct.org) pour les traductions et les révisions.

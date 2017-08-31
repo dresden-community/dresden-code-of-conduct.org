@@ -51,3 +51,5 @@ Oczekujemy, że wszyscy uczestnicy społeczności (organizatorzy, zarówno opła
 Dresden kodeks postępowania jest rozpowszechniany na warunkach licencji Creative Commons Uznanie autorstwa-Na tych 
 samych warunkach. Kodeks został stworzony na podstawie [pdx.rb code of conduct](https://pdxruby.org/codeofconduct), 
 rozpowszechnianego na warunkach tej samej licencji.
+
+Dzięki opiekunom, przyjaciołom i społecznościom [Berlin Code of Conduct](http://berlincodeofconduct.org) za tłumaczenia i poprawki.

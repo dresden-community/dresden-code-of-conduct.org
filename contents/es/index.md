@@ -52,3 +52,5 @@ Se espera que todos los participantes de la comunidad (colaboradores/as —pagos
 
 El Dresden Code of Conduct se encuentra distribuido bajo una licencia Creative Commons Attribution-ShareAlike. 
 Está basado en el [pdx.rb code of conduct](http://pdxruby.org/codeofconduct), que también es distribuido bajo la misma licencia.
+
+Gracias a los mantenedores, amigos y comunidad alrededor de [Berlin Code of Conduct](http://berlincodeofconduct.org) por las traducciones y revisiones.

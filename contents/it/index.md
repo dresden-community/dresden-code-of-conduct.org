@@ -45,3 +45,5 @@ Se pensi di essere stato falsamente o ingiustamente accusato di aver infranto il
 ## Area di applicazione
 
 Ci aspettiamo che tutti/e i/le partecipanti alla comunità (contributori/contributrici stipendiati o meno, sponsor e tutti/e gli/le ospiti) aderiscano a questo Codice di Condotta in tutti gli spazi appartenenti alla comunità, online, di persona ed in tutti i casi di comunicazione tra singoli pertinenti agli interessi della comunità.
+
+Grazie ai manutentori, agli amici e alla comunità intorno a [Berlin Code of Conduct](http://berlincodeofconduct.org) per le traduzioni e le revisioni.
