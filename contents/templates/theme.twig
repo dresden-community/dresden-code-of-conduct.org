@@ -117,6 +117,13 @@
 										<span class="beta"><i class="fa fa-github"></i> PUBLIC BETA</span>
 									</a>
 								</li>
+								{% if breadCrumb|keys|first in ['/de/index.html','/en/index.html'] %}
+									<li class="pull-right">
+										<a href="@baseUrl@/downloads/CodeOfConduct.pdf" target="_blank" title="Download Dresden Code of Conduct as PDF (de|en)">
+											<span class="beta"><i class="fa fa-file-pdf-o"></i> DOWNLOAD POSTER</span>
+										</a>
+									</li>
+								{% endif %}
 							</ul>
 						</div>
 					</div>
