@@ -1,7 +1,7 @@
 {
 	"name": "dresden-community/dresden-code-of-conduct",
 	"description": "The Dresden Code of Conduct",
-	"minimum-stability": "dev",
+	"minimum-stability": "stable",
 	"prefer-stable": true,
 	"license": "MIT",
 	"authors": [
@@ -21,7 +21,8 @@
 		"tools": {
 			"spg": {
 				"url": "https://github.com/icehawk/static-page-generator/releases/download/v1.4.1/static-page-generator.phar",
-				"only-dev": true
+				"only-dev": true,
+				"replace": true
 			}
 		}
 	}

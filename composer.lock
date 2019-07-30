@@ -1,35 +1,34 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+      "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ddbb01be2b55fe259b50cce184b19138",
+  "content-hash": "9192f850849ab1025d62c23a2ed84d0a",
     "packages": [],
     "packages-dev": [
         {
             "name": "tm/tooly-composer-script",
-            "version": "1.2.5",
+          "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tommy-muehle/tooly-composer-script.git",
-                "reference": "d75cf732edc3a807df47b0c16cb34ca993b420c8"
+              "reference": "0f2d81f1051d155702229abf1c8f7a0d8bec75c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tommy-muehle/tooly-composer-script/zipball/d75cf732edc3a807df47b0c16cb34ca993b420c8",
-                "reference": "d75cf732edc3a807df47b0c16cb34ca993b420c8",
+              "url": "https://api.github.com/repos/tommy-muehle/tooly-composer-script/zipball/0f2d81f1051d155702229abf1c8f7a0d8bec75c7",
+              "reference": "0f2d81f1051d155702229abf1c8f7a0d8bec75c7",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "codeclimate/php-test-reporter": "dev-master",
                 "composer/composer": "1.*",
                 "mikey179/vfsstream": "1.6.*",
                 "php-mock/php-mock-phpunit": "1.1.*",
-                "tm/gpg-verifier": "1.*"
+              "symfony/console": "^3.0"
             },
             "suggest": {
                 "tm/gpg-verifier": "Allows verification over GPG for PHAR tools."
@@ -38,7 +37,7 @@
             "extra": {
                 "tools": {
                     "phpunit": {
-                        "url": "https://phar.phpunit.de/phpunit-5.5.0.phar"
+                      "url": "https://phar.phpunit.de/phpunit-5.7.27.phar"
                     },
                     "phpcpd": {
                         "url": "https://phar.phpunit.de/phpcpd-2.0.4.phar"
@@ -49,6 +48,7 @@
                     },
                     "phpmd": {
                         "url": "http://static.phpmd.org/php/latest/phpmd.phar",
+                      "fallback-url": "https://github.com/jakzal/phpmd/releases/download/2.6.0-jakzal-2/phpmd.phar",
                         "force-replace": true
                     },
                     "security-checker": {
@@ -79,16 +79,15 @@
                 "composer",
                 "composer-phar",
                 "composer-script",
-                "gpg-verification",
                 "phar",
                 "phar-handling",
                 "phar-management"
             ],
-            "time": "2017-07-21T20:16:48+00:00"
+          "time": "2019-06-24T20:52:52+00:00"
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
+  "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
