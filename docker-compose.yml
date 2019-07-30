@@ -13,18 +13,6 @@ services:
       - ddcoc
     labels:
       - "traefik.frontend.rule=HostRegexp:{subdomain:[a-z]+}.dresden-code-of-conduct.org"
-    depends_on:
-      - php
-
-  php:
-    image: php:7.3-fpm-alpine
-    container_name: ddcoc_php
-    restart: "on-failure"
-    volumes:
-      - ./:/repo
-    networks:
-      - ddcoc
-    working_dir: /repo
 
   spg:
     image: php:7.3-cli-alpine
