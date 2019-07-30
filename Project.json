@@ -1,10 +1,10 @@
 {
 	"name": "DRESDEN CODE OF CONDUCT",
-	"baseUrl": "https://dresden-code-of-conduct.org",
+  "baseUrl": "https://dev.dresden-code-of-conduct.org",
 	"outputDir": "./public",
 	"contentsDir": "./contents/",
 	"replacements": {
-		"@website_version@": "v0.6.1",
+    "@website_version@": "v0.7.0",
 		"@github_url@": "https://github.com/dresden-community/dresden-code-of-conduct.org",
 		"@contact_email@": "info@dresden-code-of-conduct.org",
 		"@authors@": "Holger Woltersdorf",
