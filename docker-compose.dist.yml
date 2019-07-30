@@ -1,0 +1,58 @@
+version: "3"
+
+services:
+  nginx:
+    image: nginx
+    container_name: ddcoc_nginx
+    restart: "on-failure"
+    volumes:
+      - ./:/repo
+      - ./.docker/nginx/vhost.conf:/etc/nginx/conf.d/vhost.conf
+    networks:
+      - default
+      - ddcoc
+    labels:
+      - "traefik.frontend.rule=Host:dresden-code-of-conduct.org"
+    depends_on:
+      - php
+
+  php:
+    image: php:7.3-fpm-alpine
+    container_name: ddcoc_php
+    restart: "on-failure"
+    volumes:
+      - ./:/repo
+    networks:
+      - ddcoc
+    working_dir: /repo
+
+  spg:
+    image: php:7.3-cli-alpine
+    container_name: ddcoc_spg
+    restart: "no"
+    volumes:
+      - ./:/repo
+    networks:
+      - default
+    working_dir: /repo
+    command: "list"
+    depends_on:
+      - composer
+
+  composer:
+    image: composer
+    container_name: ddcoc_composer
+    restart: "no"
+    volumes:
+      - ./:/repo
+    working_dir: /repo
+    command: "install -o --no-interaction"
+    networks:
+      - default
+
+networks:
+  default:
+    external:
+      name: gateway
+  ddcoc:
+    internal: true
