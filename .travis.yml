@@ -17,4 +17,4 @@ before_script:
  - nohup php -S 127.0.0.1:8080 > build/logs/webserver.log 2>&1 &
 
 script:
- - php vendor/bin/spg.phar check:links -g -b "http://127.0.0.1:8080/public" ./Project.json
+ - php vendor/bin/spg.phar check:links -g -b "http://127.0.0.1:8080/docs" ./Project.json

@@ -12,7 +12,9 @@ services:
       - default
       - ddcoc
     labels:
-      - "traefik.frontend.rule=HostRegexp:{subdomain:[a-z]+}.dresden-code-of-conduct.org"
+      - "traefik.enable=true"
+      - "traefik.http.routers.oa.rule=Host(`dev.dresden-code-of-conduct.org`)"
+      - "traefik.http.routers.oa.tls=true"
 
   spg:
     image: php:7.3-cli-alpine
