@@ -54,7 +54,7 @@ The static page generator PHAR is placed to `vendor/bin/spg.phar` and is executa
 The simplest way is to use the build-in PHP webserver, like this:
 
 ```bash
-$ php -S 127.0.0.1:8080
+$ php -S 127.0.0.1:8080 -t docs/
 # Should print something like this
 PHP 7.1.1 Development Server started at Fri Apr 14 11:03:32 2017
 Listening on http://127.0.0.1:8080
