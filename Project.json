@@ -4,13 +4,38 @@
     "outputDir": "./docs",
     "contentsDir": "./contents/",
     "replacements": {
-        "@website_version@": "v0.7.1",
+        "@website_version@": "v0.8.0",
         "@github_url@": "https://github.com/dresden-community/dresden-code-of-conduct.org",
         "@contact_email@": "info@dresden-code-of-conduct.org",
         "@authors@": "Holger Woltersdorf",
         "@github_issues@": "https://github.com/dresden-community/dresden-code-of-conduct.org/issues"
     },
     "pages": {
+        "/index.html": {
+            "pageLevel": 0,
+            "navName": "Choose language",
+            "pageTitle": "Choose language",
+            "description": "Dresden Code of Conduct - Language chooser",
+            "language": "en",
+            "imageUrl": "/images/dresden-community-logo.png",
+            "tags": [
+                "Chooser",
+                "Language",
+                "German",
+                "English",
+                "Spanish",
+                "Polish",
+                "French",
+                "Italian",
+                "Code of Conduct"
+            ],
+            "contentType": "markdown",
+            "renderer": "twig",
+            "template": "templates/page.twig",
+            "contentFile": "index.md",
+            "children": [
+            ]
+        },
         "/de/index.html": {
             "pageLevel": 1,
             "navName": "Startseite",

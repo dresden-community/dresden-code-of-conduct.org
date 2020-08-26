@@ -46,6 +46,17 @@ header h1 .light {
 	border-radius: 3px;
 }
 
+.btn-yellow {
+	color: #000000;
+	background-color: #f9e835;
+	font-weight: bold;
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 3px;
+	border: 1px solid #3f3f3f;
+	margin: 15px 0;
+}
+
 .content-gray {
 	height: 10px;
 	background-color: #7f7f7f;
